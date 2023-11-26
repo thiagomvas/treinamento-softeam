@@ -45,6 +45,15 @@ body {
   padding: 25px;
   float: left;
 }
+.splashscreen img {
+  float: right;
+  width: 500px;
+  height: 260px;
+  padding: 50px;
+  padding-left: 10%;
+  padding-right: 5%;
+}
+
 
 .splashscreen .title {
   color: #f9faf8;

@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+.spacer {
+  margin-top: 300px;
+  margin-bottom:300px;
+}
+
 /* Header/Logo Title */
 .header {
   padding: 10px;
@@ -30,6 +35,7 @@ body {
   background-color: transparent;
   height: 30px;
   cursor: pointer;
+  color:#E5E7EB;
 }
 
 .header h1 {
@@ -77,4 +83,78 @@ body {
   border-radius: 10px;
   border-color: transparent;
   cursor: pointer;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  display:center;
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+  padding: 25px;
+}
+
+
+.quote p{
+  background-color: #1f2937;
+  padding: 125px;
+  padding-left: 20%;
+  padding-right: 20%;
+  color: #E5E7EB;
+  font-size: 36px;
+  font-style: italic;
+  display: flex;
+}
+
+
+.banner
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 150px;
+  padding-left: 100px;
+  padding-right: 100px;
+  color: #E5E7EB;
+  font-size: 18px;
+  border-radius: 15px;
+  background-color: #3882F6;
+}
+
+
+.banner-button
+{
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 15px;
+  width: 150px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 10px;
+  border: 5px solid #f9faf8;
+  cursor: pointer;
+}
+.paragraphs {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+}
+
+.footer {
+  text-align: center;
+  font-size: 15px;
+  height: 25px;
+  width: 100%;
+  padding: 10px;
+  background: #1f2937;
+  color: white;
 }
